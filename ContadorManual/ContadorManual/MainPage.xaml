@@ -17,7 +17,7 @@
             <StackLayout>
                 <Label Text="Conteo:" FontSize="Large" Margin="8" />
 
-                <Label Text="0" Margin="16" FontSize="42" HorizontalOptions="Center" />
+                <Label Text="0" Margin="16" FontSize="42" HorizontalOptions="Center" x:Name="ConteoLabel" />
 
             </StackLayout>
             
@@ -26,8 +26,8 @@
 
         <StackLayout Orientation="Horizontal">
 
-            <Button Text="Contar" FontSize="Large" />
-            <Button Text="Reiniciar" FontSize="Large" />
+            <Button Text="Contar" FontSize="Large" x:Name="ContarButton" Clicked="ContarButton_Clicked" />
+            <Button Text="Reiniciar" FontSize="Large" x:Name="ReiniciarButton" Clicked="ReiniciarButton_Clicked" />
 
         </StackLayout>
 
