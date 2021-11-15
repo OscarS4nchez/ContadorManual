@@ -1,37 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ContadorManual.MainPage">
-
-
-
-
-
-
-    <StackLayout Orientation="Vertical" Margin="16" HorizontalOptions="Center">
-
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="ContadorManual.MainPage">
+    <StackLayout>
         <Frame Margin="16" CornerRadius="0" BorderColor="LightGray">
-
-
-
             <StackLayout>
-                <Label Text="Conteo:" FontSize="Large" Margin="8" />
-
-                <Label Text="0" Margin="16" FontSize="42" HorizontalOptions="Center" x:Name="ConteoLabel" />
-
+                <Label Text="Conteo:" FontSize="Large" Margin="8"/>
+                <Label Text="{Binding Conteo}" FontSize="42" HorizontalOptions="Center"
+Margin="16" x:Name="ConteoLabel"/>
             </StackLayout>
-            
         </Frame>
-
-
-        <StackLayout Orientation="Horizontal">
-
-            <Button Text="Contar" FontSize="Large" x:Name="ContarButton" Clicked="ContarButton_Clicked" />
-            <Button Text="Reiniciar" FontSize="Large" x:Name="ReiniciarButton" Clicked="ReiniciarButton_Clicked" />
-
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center"
+Margin="16">
+            <Button Text="Contar" FontSize="Medium" x:Name="ContarButton" 
+Clicked="ContarButton_Clicked"/>
+            <Button Text="Reiniciar" FontSize="Medium" x:Name="ReiniciarButton"
+Clicked="ReiniciarButton_Clicked"/>
         </StackLayout>
-
-
     </StackLayout>
-   
 </ContentPage>
