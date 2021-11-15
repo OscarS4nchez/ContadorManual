@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContadorManual.Android", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContadorManual.iOS", "ContadorManual\ContadorManual.iOS\ContadorManual.iOS.csproj", "{A1D8FC13-2959-4B87-9731-6FA8DD774334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContadorManual", "ContadorManual\ContadorManual\ContadorManual.csproj", "{80D45837-544F-4FCB-B79F-FA1557F42A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContadorManual", "ContadorManual\ContadorManual\ContadorManual.csproj", "{80D45837-544F-4FCB-B79F-FA1557F42A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
